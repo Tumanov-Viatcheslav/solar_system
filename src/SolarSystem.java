@@ -4,7 +4,8 @@ import java.util.List;
 public class SolarSystem {
     public static void main(String[] args) {
         List<Planet> planets = getSolarSystem();
-        planets.sort(new Astronaut());
+        //planets.sort(new Astronaut());
+        planets.sort(new Astrologist());
         System.out.println(planets);
     }
 
